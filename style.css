@@ -1,0 +1,118 @@
+header {
+    background: linear-gradient(90deg, #714ca4, #c85c76);
+    background-size: 100%;
+    font-family: Verdana, sans-serif;
+    height: 64px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+hr {
+    background-color: #d8599b;
+    height:3px ;
+    border-width: 0px;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+}
+
+.LogoDoc {
+    background: url(data/pictures/logo2.png) no-repeat 50% 50%;
+    display: block;
+    width: 54px;
+    height: 54px;
+    background-size: 100%;
+    transition: border-radius .3s ease;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+}
+
+.LogoDoc:hover {
+    border-radius: 0;
+
+}
+
+.fade {
+    opacity: 1;
+}
+
+.fade:hover {
+    opacity: 0.6;
+}
+
+.up {
+    opacity: 1;
+    position: relative;
+    top: 0;
+    transition: top, 0.2s ease;
+}
+.up:hover {
+    top: -11px;
+
+}
+
+.center {
+    display: block;
+    margin-left: 20%;
+}
+
+#Contacts {
+    margin: 12px;
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+}
+#MyProjects {
+    margin: 12px;
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+
+}
+#AboutMe {
+    margin: 12px;
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+
+}
+
+
+.grow {
+    transform: scale(1);
+    transition: transform 0.2s ease;
+
+}
+
+.grow:hover {
+
+    transform: scale(1.2);
+    will-change: transform;
+}
+
+div {
+    background: linear-gradient(90deg,#714ca4, #cc4a8a);
+    width: 1885px;
+    height: 500px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+}
