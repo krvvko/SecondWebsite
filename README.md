@@ -1,4 +1,4 @@
-# SecondWebcite-portfolio
+# SecondWebsite-portfolio
 
 Hey everyone! This project is a website / portfolio, which in the future, I hope, will help me in some way. Since I cannot make the site in one go, it will have several versions, in which different things will be updated / added.
 ______________________________________________________________________________________________________
