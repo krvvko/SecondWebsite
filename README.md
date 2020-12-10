@@ -4,9 +4,9 @@ Hey everyone! This project is a website / portfolio, which in the future, I hope
 ______________________________________________________________________________________________________
 Alpha 1.0
 
-The first version of the site, the style has not yet been invented, but there is already a .css file
+The first version of the site, the style has not yet been invented, but there is already a .css file.
 ______________________________________________________________________________________________________
 Alpha 1.1
 
-Update: Added animations, invented and created design, added content to the sections "About Me" and "My Projects"
+Update: Added animations, invented and created design, added content to the sections "About Me" and "My Projects", also decided to hide the "Contacts" page, because footer with links to my social networks was added.
 ______________________________________________________________________________________________________
