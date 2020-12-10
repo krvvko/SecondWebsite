@@ -1,42 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 header {
-    background: linear-gradient(90deg, #714ca4, #c85c76);
-    background-size: 100%;
-    font-family: Verdana, sans-serif;
-    height: 64px;
+    
+    font-family: Open Sans, sans-serif;
+    height: 65px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
 }
+
+downer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    left: 44%; 
+}
+
 html, body {
     margin: 0;
     padding: 0;
-
-
 }
 
 hr {
-    background-color: #d8599b;
+    background-color: #636363;
     height:3px ;
-    border-width: 0px;
+    border-width: 0;
 }
 
 p {
-    font-family: Verdana, sans-serif;
+    font-family: Helvatica, sans-serif;
+    text-align: center; 
+    color: #535353; 
+    transform: scale(1)
 }
 
-.LogoDoc {
-    background: url(data/pictures/logo2.png) no-repeat 50% 50%;
-    display: block;
-    width: 54px;
-    height: 54px;
+.Logo {
+    background: url(data/pictures/logo.png) no-repeat 50% 50%;
+    width: 100px;
+    height: 100px;
     background-size: 100%;
-    transition: border-radius .3s ease;
     border-radius: 50%;
     float: left;
     margin: 5px;
+    position: absolute;
+    top: -25px;
+    left: 200px;
 }
 
-.LogoDoc:hover {
-    border-radius: 0;
-
-}
 
 .fade {
     opacity: 1;
@@ -55,6 +68,80 @@ p {
 .up:hover {
     top: -11px;
 
+}
+
+.left {
+
+    opacity: 1;
+    position: relative;
+    left: 0;
+    transition: left, 0.2s ease;
+}
+.left:hover {
+    left: -150px;
+
+}
+
+.myYTprojecttext {
+
+    position: relative;
+    left: 240px;
+    opacity: 0;
+    padding: 25px 70px 25px;
+    width: 180px;
+    top: -182px;
+    transition:opacity 0.4s;
+    transition:color 0.4s;
+    transition:background-color 0.4s;
+    text-decoration: none;
+    
+    
+}
+
+.myYTprojecttext:hover {
+
+    opacity:100;
+    background-color: black;
+    color: white;
+    
+}
+
+.myGHprojecttext {
+
+    position: relative;
+    left: 240px;
+    opacity: 0;
+    padding: 3px 70px 3px;
+    width: 180px;
+    
+    transition:opacity 0.4s;
+    transition:color 0.4s;
+    transition:background-color 0.4s;
+    text-decoration: none;
+    
+    
+}
+
+.myGHprojecttext:hover {
+
+    opacity:100;
+    background-color: black;
+    color: white;
+    
+}
+
+
+.right {
+    opacity: 0;
+    
+    position: relative;
+    top: -100px;
+    left: 0;
+    transition: left, 0.2s ease;
+}
+.right:hover {
+    left: 150px;
+    opacity: 100;
 }
 
 .center {
@@ -78,22 +165,32 @@ p {
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
-    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
     padding: 10px 10px 10px;
-    border-radius: 5px;
-
 }
+
+
+
+
 #AboutMe {
-    margin: 12px;
+    position: relative;
+    color: #000000;
     float: right;
-    color: rgb(0, 0, 0);
+    left: 9;
     text-decoration: none;
     text-align: center;
-    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
     padding: 10px 10px 10px;
-    border-radius: 5px;
-
+    transition:color 0.5s;
+    transition:background-color 0.5s;
+    margin: 12px;
 }
+
+
+#AboutMe:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
 
 
 .grow {
@@ -108,11 +205,31 @@ p {
     will-change: transform;
 }
 
+
 div {
-    background: linear-gradient(90deg,#714ca4, #cc4a8a);
-    width: 1885px;
+    font-family: Helvatica, sans-serif;
+    width: 800px;
     height: 500px;
     padding: 8px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 100px;
+    position: absolute;
+    top: -20px;
+    left: 26%;
+    text-align: center;
 }
+
+
+
+h2, h4 {
+    font-family: Helvatica, sans-serif;
+    color: #535353;
+}
+
+div1 {
+
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+
