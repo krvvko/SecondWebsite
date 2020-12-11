@@ -10,3 +10,8 @@ Alpha 1.1
 
 Update: Added animations, invented and created design, added content to the sections "About Me" and "My Projects", also decided to hide the "Contacts" page, because footer with links to my social networks was added.
 ______________________________________________________________________________________________________
+Alpha 2.0 (Big update)
+
+Update: PHP language was added, files were updated, was added a host (krvvko.com), was uploaded to the server. 
+______________________________________________________________________________________________________
+
