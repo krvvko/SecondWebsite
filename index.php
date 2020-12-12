@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="/styles/cssnorm.css">
     <link rel="stylesheet" type="text/css" href="/styles/style.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.png" type="image/png">
 
     <style>
+
     </style>
     <title>
 
@@ -86,15 +88,18 @@
 
 
 <footer>
+    <div style="text-align: center; position: relative; top: -21px; "><span style="background-color: white; padding: 0 10px;">contact me</span></div>
 
+    <div style=" display: flex; align-items: center; justify-content: center; bottom: 0;width: 100%;height: 60px;padding: 10px 0;margin-top: -30px;">
     <a class="up" href="https://github.com/krvvko">
-        <img src="/data/pictures/iconfinder_Github.svg" width="55"></a>
+        <img src="/data/pictures/iconfinder_Github.svg" width="28"></a>
     <a class="up" href="https://www.youtube.com/channel/UCse1yKfPXvG6phJXWys-8kw?view_as=subscriber">
-        <img src="/data/pictures/iconfinder_Youtube.svg" width="70"></a>
+        <img src="/data/pictures/iconfinder_Youtube.svg" width="36"></a>
     <a class="up" href="https://www.instagram.com/krvvko/">
-        <img src="/data/pictures/iconfinder_instagram.svg" width="55"></a>
+        <img src="/data/pictures/iconfinder_instagram.svg" width="28"></a>
     <a class="up" href="https://steamcommunity.com/id/krvvko/">
-        <img src="/data/pictures/steam_logo.svg" width="55"></a>
+        <img src="/data/pictures/steam_logo.svg" width="28"></a>
+    </div>
 </footer>
 
 
