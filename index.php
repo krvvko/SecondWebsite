@@ -24,7 +24,7 @@
                 break;
 
             case "/":
-                echo "krvvko - Main Page";
+                echo "Home";
                 break;
 
             default:
@@ -34,9 +34,10 @@
         }
 
 
-        ?>
+        ?> - krvvko
 
     </title>
+
 
 </head>
 <body>
@@ -84,18 +85,17 @@
 
 
 
-<downer>
+<footer>
 
-    <a class="up" href="https://github.com/krvvko"><img
-                src="/data/pictures/iconfinder_Github.svg" width="55"></img></a>
-    <a class="up" href="https://www.youtube.com/channel/UCse1yKfPXvG6phJXWys-8kw?view_as=subscriber"><img
-                src="/data/pictures/iconfinder_Youtube.svg"
-                width="70"></img></a>
-    <a class="up" href="https://www.instagram.com/krvvko/"><img
-                src="/data/pictures/iconfinder_instagram.svg" width="55"></img></a>
-    <a class="up" href="https://steamcommunity.com/id/krvvko/"><img
-                src="/data/pictures/steam_logo.svg" width="55"></img></a>
-</downer>
+    <a class="up" href="https://github.com/krvvko">
+        <img src="/data/pictures/iconfinder_Github.svg" width="55"></a>
+    <a class="up" href="https://www.youtube.com/channel/UCse1yKfPXvG6phJXWys-8kw?view_as=subscriber">
+        <img src="/data/pictures/iconfinder_Youtube.svg" width="70"></a>
+    <a class="up" href="https://www.instagram.com/krvvko/">
+        <img src="/data/pictures/iconfinder_instagram.svg" width="55"></a>
+    <a class="up" href="https://steamcommunity.com/id/krvvko/">
+        <img src="/data/pictures/steam_logo.svg" width="55"></a>
+</footer>
 
 
 </body>
