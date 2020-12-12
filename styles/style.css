@@ -32,7 +32,7 @@ html, body {
 
 hr {
     background-color: #636363;
-    height:2px ;
+    height:1px ;
     border-width: 0;
 }
 
@@ -267,4 +267,16 @@ main img {
 main img:active {
 
     transform:scale(2) ;
+}
+
+.transitionblackred {
+    color: black;
+    transition-duration:0.2s;
+    font-weight: bold;
+}
+
+.transitionblackred:hover {
+
+    color: red;
+
 }

@@ -86,9 +86,13 @@
 
 
 
-
+<br>
+<br>
+<br>
+<br>
 <footer>
-    <div style="text-align: center; position: relative; top: -21px; "><span style="background-color: white; padding: 0 10px;">contact me</span></div>
+
+    <div style="text-align: center; position: relative; top: -21px; "><span style="background-color: white; padding: 0 10px; z-index: 4;">contact me</span></div>
 
     <div style=" display: flex; align-items: center; justify-content: center; bottom: 0;width: 100%;height: 60px;padding: 10px 0;margin-top: -30px;">
     <a class="up" href="https://github.com/krvvko">
