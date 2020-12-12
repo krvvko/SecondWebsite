@@ -181,7 +181,7 @@ p {
     text-decoration: none;
     text-align: center;
     padding: 10px 10px 10px;
-    transition:background-color 0.5s;
+    transition:background-color 0.4s;
     margin: 12px;
     border-radius: 2px;
 }
