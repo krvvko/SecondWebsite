@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Roboto:700');
+
 
 
 header {
@@ -6,17 +8,24 @@ header {
     font-family: Open Sans, sans-serif;
     height: 65px;
     top: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    background-color: rgb(197, 197, 197);
+    background-color: rgba(196, 196, 196, 0.9);
+    backdrop-filter: blur(2px);
+    z-index: 5;
 }
 
 downer {
-    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
     width: 100%;
-    height: 2.5rem; 
-    left: 44%; 
+    height: 60px;
+    padding: 10px 0;
+    margin-top: -60px;
+
 }
 
 html, body {
@@ -38,7 +47,7 @@ p {
 }
 
 .Logo {
-    background: url(data/pictures/logo.png) no-repeat 50% 50%;
+    background: url(/data/pictures/logo.png) no-repeat 50% 50%;
     width: 100px;
     height: 100px;
     background-size: 100%;
@@ -61,12 +70,12 @@ p {
 
 .up {
     opacity: 1;
-    position: relative;
-    top: 0;
+    margin: 0 3px;
     transition: top, 0.2s ease;
 }
 .up:hover {
-    top: -11px;
+    margin-top: -11px;
+
 
 }
 
@@ -113,21 +122,17 @@ p {
     opacity: 0;
     padding: 3px 70px 3px;
     width: 180px;
-    
-    transition:opacity 0.4s;
-    transition:color 0.4s;
-    transition:background-color 0.4s;
     text-decoration: none;
-    
-    
+    color: rgba(255,255,255,0);
+
+    transition:opacity 0.4s, background-color 0.4s;
 }
 
 .myGHprojecttext:hover {
 
     opacity:100;
-    background-color: black;
     color: white;
-    
+    background-color: black;
 }
 
 
@@ -171,23 +176,24 @@ p {
 
 
 
-#AboutMe {
+.AboutMe {
     position: relative;
     color: #000000;
     float: right;
-    left: 9;
     text-decoration: none;
     text-align: center;
     padding: 10px 10px 10px;
-    transition:color 0.5s;
     transition:background-color 0.5s;
     margin: 12px;
+    border-radius: 2px;
 }
 
 
-#AboutMe:hover {
+.AboutMe:hover {
     background-color: black;
     color: rgb(255, 255, 255);
+
+    
 }
 
 
@@ -207,15 +213,7 @@ p {
 
 
 div {
-    font-family: Helvatica, sans-serif;
-    width: 800px;
-    height: 500px;
-    padding: 8px;
-    margin: 100px;
-    position: absolute;
-    top: -20px;
-    left: 26%;
-    text-align: center;
+
 }
 
 
@@ -232,4 +230,21 @@ div1 {
     top: 12px;
 }
 
+.active {
+
+    background-color: black;
+    color: white;
+}
+
+
+main {
+
+    min-height: 100vh;
+    font-family: Helvatica, sans-serif;
+    width: 800px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
 
