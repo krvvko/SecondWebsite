@@ -5,9 +5,38 @@
     <link rel="stylesheet" type="text/css" href="/styles/cssnorm.css">
     <link rel="stylesheet" type="text/css" href="/styles/style.css">
 
+    <link rel="icon" href="/favicon.png" type="image/png">
+
     <style>
     </style>
+    <title>
 
+        <?php
+
+        switch ($_SERVER ["REQUEST_URI"]) {
+
+            case "/AboutMe":
+                echo "About Me";
+                break;
+
+            case "/MyProjects":
+                echo "My Projects";
+                break;
+
+            case "/":
+                echo "krvvko - Main Page";
+                break;
+
+            default:
+                echo "404 not found";
+                break;
+
+        }
+
+
+        ?>
+
+    </title>
 
 </head>
 <body>
