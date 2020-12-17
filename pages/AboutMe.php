@@ -1,3 +1,26 @@
+<style>
+
+    main img {
+        margin: 10px;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
+        width: 45%;
+        height: 180px;
+        transition:transform 0.4s;
+        cursor:pointer ;
+    }
+
+    main img:active {
+
+        transform:scale(2) ;
+    }
+    h1, h2, h3, h4 {
+
+        font-family: 'Open Sans Condensed', sans-serif;
+
+    }
+
+</style>
+
 <div>
     <h1> ABOUT ME</h1>
 <hr>
