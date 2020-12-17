@@ -50,7 +50,7 @@
 
 
 
-        <img src="/data/pictures/youtube.png">
+        <img src="/data/pictures/youtube.png" alt="youtube">
         <h4 style="padding: 34px 27px;">I created this
 
             <a href="https://www.youtube.com/channel/UCse1yKfPXvG6phJXWys-8kw?view_as=subscriber" class="transitionblackred" style="text-shadow: none">channel</a>
@@ -71,7 +71,7 @@
 
 
 
-        <img src="/data/pictures/fk0849hvg2rt13bpqhjy.jpg">
+        <img src="/data/pictures/fk0849hvg2rt13bpqhjy.jpg" alt="github">
         <h4 style="padding: 7px 27px;">GitHub - a resource where developers
             can share their projects with others,and you can also use it as a
 

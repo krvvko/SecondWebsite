@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head lang="EN">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="/styles/cssnorm.css">
@@ -85,9 +85,6 @@
     ?>
 </main>
 
-
-
-
 <br>
 <br>
 <br>
@@ -98,13 +95,13 @@
 
     <div style=" display: flex; align-items: center; justify-content: center; bottom: 0;width: 100%;height: 60px;padding: 10px 0;margin-top: -30px;">
     <a class="up" href="https://github.com/krvvko">
-        <img src="/data/pictures/iconfinder_Github.svg" width="28"></a>
+        <img src="/data/pictures/iconfinder_Github.svg" width="28" alt="github"></a>
     <a class="up" href="https://www.youtube.com/channel/UCse1yKfPXvG6phJXWys-8kw?view_as=subscriber">
-        <img src="/data/pictures/iconfinder_Youtube.svg" width="36"></a>
+        <img src="/data/pictures/iconfinder_Youtube.svg" width="36" alt="youtube"></a>
     <a class="up" href="https://www.instagram.com/krvvko/">
-        <img src="/data/pictures/iconfinder_instagram.svg" width="28"></a>
+        <img src="/data/pictures/iconfinder_instagram.svg" width="28" alt="instagram"></a>
     <a class="up" href="https://steamcommunity.com/id/krvvko/">
-        <img src="/data/pictures/steam_logo.svg" width="28"></a>
+        <img src="/data/pictures/steam_logo.svg" width="28" alt="steam"></a>
     </div>
 </footer>
 
