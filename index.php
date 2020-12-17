@@ -10,6 +10,8 @@
 
     <style>
 
+
+
     </style>
     <title>
 
@@ -66,7 +68,7 @@
             break;
 
         case "/MyProjects":
-            echo file_get_contents("pages/MyProjects.html");
+            require ("pages/MyProjects.php");
             break;
 
         case "/":
