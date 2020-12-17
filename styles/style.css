@@ -10,7 +10,7 @@ header {
     top: 0;
     position: fixed;
     width: 100%;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     z-index: 5;
     border-bottom: 1px solid black;
 }
@@ -95,9 +95,7 @@ p {
     padding: 25px 70px 25px;
     width: 180px;
     top: -182px;
-    transition:opacity 0.4s;
-    transition:color 0.4s;
-    transition:background-color 0.4s;
+    transition:background-color 0.4s, color 0.4s, opacity 0.4s;
     text-decoration: none;
     
     
@@ -210,41 +208,24 @@ p {
 }
 
 
-div {
-
-}
-
-
 
 h2, h4, h1, h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #535353;
     font-weight: 300;
-
 }
 
 h1 {
-
     margin: 50px 0 0 30px;
-
 }
 
-div1 {
-
-    position: absolute;
-    right: 12px;
-    top: 12px;
-}
 
 .active {
-
     background-color: black;
     color: white;
 }
 
 
 main {
-
     min-height: 100vh;
     width: 650px;
     padding: 50px 0;
@@ -258,20 +239,12 @@ main {
 main img {
     margin: 10px;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
-    width: 45%;
-    height: 180px;
-    transition:transform 0.4s;
-    cursor:pointer ;
-}
-
-main img:active {
-
-    transform:scale(2) ;
 }
 
 .transitionblackred {
     color: black;
     transition-duration:0.2s;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -280,3 +253,37 @@ main img:active {
     color: red;
 
 }
+
+.transitiongreyred {
+    color: #2d2d2d;
+    transition-duration:0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transitiongreyred:hover {
+
+    color: red;
+
+}
+
+.MyProjectsPictures {
+
+opacity: 0;
+
+}
+
+.MyProjectsPictures:hover {
+
+
+
+}
+
+#TextVisible {
+
+
+
+}
+
+
+
