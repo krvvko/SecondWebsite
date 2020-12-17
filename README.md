@@ -14,3 +14,6 @@ Alpha 2.0 (Big update)
 
 Update: PHP language was added, files were updated, was added a host (krvvko.com), was uploaded to the server.
 ______________________________________________________________________________________________________
+Alpha 2.1
+Update: Style.css was changed , 404 page was updated, content was added to "My Projects" tab
+______________________________________________________________________________________________________
