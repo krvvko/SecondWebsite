@@ -72,7 +72,7 @@
 
 
         <img src="/data/pictures/fk0849hvg2rt13bpqhjy.jpg">
-        <h4 style="padding: 20px 27px;">GitHub - a resource where developers
+        <h4 style="padding: 7px 27px;">GitHub - a resource where developers
             can share their projects with others,and you can also use it as a
 
             <a href="https://en.wikipedia.org/wiki/Git" class="transitiongreyred" style="text-shadow: none">Git</a>
