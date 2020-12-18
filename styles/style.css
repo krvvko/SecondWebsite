@@ -236,10 +236,6 @@ main {
 
 
 
-main img {
-    margin: 10px;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
-}
 
 .transitionblackred {
     color: black;
@@ -255,7 +251,7 @@ main img {
 }
 
 .transitiongreyred {
-    color: #2d2d2d;
+    color: #545454;
     transition-duration:0.2s;
     text-decoration: none;
     font-weight: bold;

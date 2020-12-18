@@ -18,6 +18,10 @@
         font-family: 'Open Sans Condensed', sans-serif;
 
     }
+    main img {
+        margin: 10px;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
+    }
 
 </style>
 

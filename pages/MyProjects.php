@@ -40,6 +40,10 @@
          font-family: 'Open Sans Condensed', sans-serif;
 
      }
+     main img {
+         margin: 10px;
+         box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
+     }
 </style>
 
 
@@ -82,7 +86,12 @@
             <a href="https://github.com/krvvko" class="transitiongreyred" style="text-shadow: none">page</a>
 
             on it where I'm uploading all my projects.</h4>
+    <img src="/data/pictures/sketchfab.png" alt="sketchfab">
+    <h4 style="padding: 34px 27px;">Sketchfab - a resourse that allows designers to share their 3d models with others.
+        And you know what? Of course I have a
+        <a href="sketchfab" class="transitiongreyred" style="text-shadow: none">page</a>
 
+        on it with my 3d models.</h4>
 
 
 
