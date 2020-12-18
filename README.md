@@ -18,3 +18,7 @@ Alpha 2.1
 
 Update: Style.css was changed , 404 page was updated, content was added to "My Projects" tab
 ______________________________________________________________________________________________________
+Alpha 2.2
+
+Update: Style.css was changed , "Home" tab was added, small changes were added
+______________________________________________________________________________________________________
