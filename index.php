@@ -52,11 +52,12 @@
 
     <a href="/" class="Logo"></a>
     <a href="/MyProjects" class="<?= $_SERVER['REQUEST_URI'] === '/MyProjects' ? 'active' : '' ?> AboutMe">MY PROJECTS</a>
-
     <a href="/AboutMe" class="<?= $_SERVER['REQUEST_URI'] === '/AboutMe' ? 'active' : '' ?> AboutMe">ABOUT ME</a>
     <a href="/" class="<?= $_SERVER['REQUEST_URI'] === '/' ? 'active' : '' ?> AboutMe">HOME</a>
 
 </header>
+
+
 
 <main>
     <?php
@@ -75,11 +76,21 @@
             echo file_get_contents("pages/Index.html");
             break;
 
+
+        case "noob:enters website":
+
+            hack;
+            break;
+
         default:
             echo file_get_contents("pages/netnetnet.html");
             break;
 
+
+
+
     }
+
 
 
     ?>
