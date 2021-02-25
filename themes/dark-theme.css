@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Roboto:700');
+
+
+
+header {
+
+    font-family: Open Sans, sans-serif;
+    height: 65px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    z-index: 5;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: -60px;
+    border-top: 1px solid #dddddd;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    background-color: #636363;
+    height:1px ;
+    border-width: 0;
+}
+
+p {
+    color: #535353;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.Logo {
+    background: url(/data/pictures/logo.png) no-repeat 50% 50%;
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    position: absolute;
+    top: -25px;
+    left: 200px;
+}
+
+
+.fade {
+    opacity: 1;
+}
+
+.fade:hover {
+    opacity: 0.6;
+}
+
+.up {
+    opacity: 1;
+    margin: 0 16px;
+    transition: top, 0.2s ease;
+}
+.up:hover {
+    margin-top: -11px;
+
+
+}
+
+.left {
+
+    opacity: 1;
+    position: relative;
+    left: 0;
+    transition: left, 0.2s ease;
+}
+.left:hover {
+    left: -150px;
+
+}
+
+.myYTprojecttext {
+
+    position: relative;
+    left: 240px;
+    opacity: 0;
+    padding: 25px 70px 25px;
+    width: 180px;
+    top: -182px;
+    transition:background-color 0.4s, color 0.4s, opacity 0.4s;
+    text-decoration: none;
+
+
+}
+
+.myYTprojecttext:hover {
+
+    opacity:100;
+    background-color: black;
+    color: white;
+
+}
+
+.myGHprojecttext {
+
+    position: relative;
+    left: 240px;
+    opacity: 0;
+    padding: 3px 70px 3px;
+    width: 180px;
+    text-decoration: none;
+    color: rgba(255,255,255,0);
+
+    transition:opacity 0.4s, background-color 0.4s;
+}
+
+.myGHprojecttext:hover {
+
+    opacity:100;
+    color: white;
+    background-color: black;
+}
+
+
+.right {
+    opacity: 0;
+
+    position: relative;
+    top: -100px;
+    left: 0;
+    transition: left, 0.2s ease;
+}
+.right:hover {
+    left: 150px;
+    opacity: 100;
+}
+
+.center {
+    display: block;
+    margin-left: 20%;
+}
+
+
+
+#Contacts {
+    margin: 12px;
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #cc4a8a, #b13d8c);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+}
+#MyProjects {
+    margin: 12px;
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px 10px;
+}
+
+
+
+
+.AboutMe {
+    position: relative;
+    color: #000000;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px 10px;
+    transition:background-color 0.4s;
+    margin: 12px;
+    border-radius: 2px;
+}
+
+
+.AboutMe:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+.grow {
+    transform: scale(1);
+    transition: transform 0.2s ease;
+
+}
+
+.grow:hover {
+
+    transform: scale(1.2);
+    will-change: transform;
+}
+
+
+
+h2, h4, h1, h3 {
+    color: #535353;
+    font-weight: 300;
+}
+
+h1 {
+    margin: 50px 0 0 30px;
+}
+
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+
+main {
+    min-height: 100vh;
+    width: 650px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
+.transitionblackred {
+    color: black;
+    transition-duration:0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transitionblackred:hover {
+
+    color: red;
+
+}
+
+.transitiongreyred {
+    color: #545454;
+    transition-duration:0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transitiongreyred:hover {
+
+    color: red;
+
+}
+
+.MyProjectsPictures {
+
+    opacity: 0;
+
+}
+
+.MyProjectsPictures:hover {
+
+
+
+}
+
+#TextVisible {
+
+
+
+}
+
+
+
